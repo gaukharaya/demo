@@ -1,14 +1,101 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "tests": [
+    { 
+      "id": 1,
+      "title": "Welcome to Sample Test",
+      "istructions": "1. This is a sample test to help you get familiar with the HackerRank test environment.\n2. There are 3 question which you need to solve within 30 minutes.\n3. Our HR team will be in touch with the next steps.\n\nGood luck!`,
+      "durationInMins": 30,
+      "questions": [1, 2, 3]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "questions": [
+    { 
+      "id": 1,
+      "title": "Portfolio Duration"
+      "body": "The following table provides information about a portfolio of three bonds:\n\nBond 1\nMaturity: 17-year\nPrice: $109.2461\nPar amount: $16m\nDuration: 8.56\nBond 2\nMaturity: 20-year\nPrice: $100.4732\nPar amount: $4m\nDuration: 9.19\n\nBond 3\nMaturity: 25-year\nPrice: $84.6427\nPar amount: $8m\nDuration: 11.48\nBased on this information, the duration of the portfolio is closest to:",
+      "type": "MULTIPLE_CHOICE",
+      "category": "FIXED_INCOME",
+      "difficulty": "MEDIUM",
+      "options": [
+        {
+            "id": 1,
+            "body": "9.48"
+        },
+        {
+            "id": 2,
+            "body": "9.35"
+        },
+        {
+            "id": 3,
+            "body": "9.56"
+        },
+        {
+            "id": 4,
+            "body": "9.74"
+        }
+      ],
+    },
+    { 
+      "id": 2,
+      "title": "Justified forward P/E"
+      "body": "An investor gathers the following data:\n\n2014\nEarnings per share: $3.20\nDividends per share: $1.92\nROE: 12%\n\n2013\nEarnings per share: $3.60\nDividends per share: $1.80\nROE: 17%\n\n2012\nEarnings per share: $2.44\nDividends per share: $1.71\nROE: 13%\n\n2011\nEarnings per share: $2.50\nDividends per share: $1.60\nROE: 15%\n\nTo estimate the stock’s justified forward P/E, the investor prefers to use the compounded annual earnings growth and the average of the payout ratios over the relevant period (i.e., 2011–2014). If the investor uses 11.5% as her required rate of return, the stock’s justified forward P/E is closest to:",
+      "type": "MULTIPLE_CHOICE",
+      "category": "EQUITY_INVESTMENTS",
+      "difficulty": "HARD",
+      "options": [
+        {
+            "id": 1,
+            "body": "21"
+        },
+        {
+            "id": 2,
+            "body": "10"
+        },
+        {
+            "id": 3,
+            "body": "12"
+        },
+        {
+            "id": 4,
+            "body": "15"
+        }
+      ]
+    },
+    { 
+      "id": 3,
+      "title": "Price of a Call Option"
+      "body": "When valuing a call option using the binomial model, an increase in the probability that the underlying will go up most likely implies that the current price of the call option:",
+      "type": "MULTIPLE_CHOICE",
+      "category": "DERIVATIVES",
+      "difficulty": "EASY",
+      "options": [
+        {
+            "id": 1,
+            "body": "increases"
+        },
+        {
+            "id": 2,
+            "body": "remains unchanged"
+        },
+        {
+            "id": 3,
+            "body": "decreases"
+        }
+      ]
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "answers": [
+    {
+      "questionId": 1,
+      "correctOptionId": 2
+    },
+    {
+      "questionId": 2,
+      "correctOptionId": 1
+    },
+    {
+      "questionId": 3,
+      "correctOptionId": 2
+    }
+  ]
 }
