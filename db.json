@@ -3,7 +3,7 @@
     { 
       "id": 1,
       "title": "Welcome to Sample Test",
-      "istructions": "1. This is a sample test to help you get familiar with the HackerRank test environment.\n2. There are 3 question which you need to solve within 30 minutes.\n3. Our HR team will be in touch with the next steps.\n\nGood luck!`,
+      "istructions": "1. This is a sample test to help you get familiar with the HackerRank test environment.\n2. There are 3 question which you need to solve within 30 minutes.\n3. Our HR team will be in touch with the next steps.\n\nGood luck!",
       "durationInMins": 30,
       "questions": [1, 2, 3]
     }
