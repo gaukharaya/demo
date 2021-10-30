@@ -11,7 +11,7 @@
   "questions": [
     { 
       "id": 1,
-      "title": "Portfolio Duration"
+      "title": "Portfolio Duration",
       "body": "The following table provides information about a portfolio of three bonds:\n\nBond 1\nMaturity: 17-year\nPrice: $109.2461\nPar amount: $16m\nDuration: 8.56\nBond 2\nMaturity: 20-year\nPrice: $100.4732\nPar amount: $4m\nDuration: 9.19\n\nBond 3\nMaturity: 25-year\nPrice: $84.6427\nPar amount: $8m\nDuration: 11.48\nBased on this information, the duration of the portfolio is closest to:",
       "type": "MULTIPLE_CHOICE",
       "category": "FIXED_INCOME",
