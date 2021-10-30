@@ -33,11 +33,11 @@
             "id": 4,
             "body": "9.74"
         }
-      ],
+      ]
     },
     { 
       "id": 2,
-      "title": "Justified forward P/E"
+      "title": "Justified forward P/E",
       "body": "An investor gathers the following data:\n\n2014\nEarnings per share: $3.20\nDividends per share: $1.92\nROE: 12%\n\n2013\nEarnings per share: $3.60\nDividends per share: $1.80\nROE: 17%\n\n2012\nEarnings per share: $2.44\nDividends per share: $1.71\nROE: 13%\n\n2011\nEarnings per share: $2.50\nDividends per share: $1.60\nROE: 15%\n\nTo estimate the stock’s justified forward P/E, the investor prefers to use the compounded annual earnings growth and the average of the payout ratios over the relevant period (i.e., 2011–2014). If the investor uses 11.5% as her required rate of return, the stock’s justified forward P/E is closest to:",
       "type": "MULTIPLE_CHOICE",
       "category": "EQUITY_INVESTMENTS",
@@ -63,7 +63,7 @@
     },
     { 
       "id": 3,
-      "title": "Price of a Call Option"
+      "title": "Price of a Call Option",
       "body": "When valuing a call option using the binomial model, an increase in the probability that the underlying will go up most likely implies that the current price of the call option:",
       "type": "MULTIPLE_CHOICE",
       "category": "DERIVATIVES",
